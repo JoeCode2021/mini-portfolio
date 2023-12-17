@@ -1,0 +1,51 @@
+.intro{
+    align-items: center;
+    justify-content: center;
+    background-color: #00524B !important;
+    padding-top: 50px !important;
+    background-image: url('../stylesheets/images/intro-bg.svg');
+    background-size: 100% 100%;
+}
+@font-face {
+    font-family: belgian;
+    src: url(Belgian-L3Dx3.woff);
+  }
+.dev-name-1{
+    font-size: 150px;
+    font-family: belgian !important;
+    color: rgb(139, 18, 18);
+}
+.dev-name-2{
+    font-size: 150px;
+    font-family: belgian !important;
+    color: rgb(227, 227, 80);
+}
+
+.intro p{
+    color:rgba(255, 255, 255, 0.735);
+}
+.get-started{
+    background-color: #259390;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+}
+.hire-me{
+    background-color:#ecf7f6;
+    padding: 10px 25px;
+    border: none;
+    color: rgb(14, 13, 13);
+}
+
+@media only screen and (max-width : 600px){
+    .dev-name-1{
+        font-size: 70px;
+        font-family: belgian !important;
+        color: rgb(139, 18, 18);
+    }
+    .dev-name-2{
+        font-size: 70px;
+        font-family: belgian !important;
+        color: rgb(227, 227, 80);
+    }
+}
